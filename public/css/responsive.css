@@ -1,0 +1,109 @@
+/* tablet responsive */
+
+@media only screen and (max-width: 920px) {
+  .row {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px !important;
+  }
+
+  .card {
+    padding: 5px 0;
+    margin: 5px;
+  }
+
+  .col-md-3 {
+    padding: 5px 0;
+  }
+
+  .card-body {
+    padding: 10PX;
+  }
+
+  .card-img-top {
+    width: 30%;
+    object-fit: cover;
+    text-align: center;
+  }
+
+  .why_online_ins,
+  .review_section,
+  .brand_logo_section,
+  .service_section {
+    margin: 30px 0;
+  }
+
+  .card-img-review {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: left;
+  }
+
+  .review_card {
+    padding: 5px;
+    margin: 5PX;
+  }
+
+  .address ul li {
+    padding: 5px;
+    margin: 0 5px;
+  }
+
+  .social_icon ul li {
+    display: inline-block;
+    margin: 0 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #2e3130;
+    padding: 5px;
+    position: relative;
+    margin-left: 3px;
+  }
+  .overview_section{
+    margin: 50px 0;
+  }
+
+}
+
+/*  Mobile */
+
+@media only screen and (max-width: 768px) {
+  .row {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px !important;
+  }
+
+  .easy_step {
+    display: none;
+  }
+  .banner_content{
+    margin-left: 40px;
+    padding-top: 40px;
+  }
+  .breadcrumb{
+    padding-top: 20px;
+    font-size: medium;
+  }
+}
+
+/* small Mobile responsive */
+
+@media only screen and (max-width: 480px) {
+  .row {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px !important;
+  }
+}
