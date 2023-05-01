@@ -1,0 +1,17 @@
+.hr-class{
+    margin: 5px auto;
+}
+@media (min-width: 768px) {
+  .card-default{
+      margin: 0 auto;
+  }
+  .row{
+      margin: 0 auto;
+      margin-top: 50px;
+  }
+  .form-control {
+      border: 1px solid #e2ddde;
+      padding: 5px;
+      height: 30px;
+  }
+}
